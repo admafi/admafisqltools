@@ -1,4 +1,3 @@
-# q3toqlconverter
+# admafisqltools
 
-
-it works
+some tools im working on
