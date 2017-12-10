@@ -24,8 +24,7 @@ int main()
 	string outputname = "textures.shader";
 	string temppath;
 	string path = "textures";
-		//textures / evil8_floor / e8cretefloor_tile { { map textures / evil8_floor / e8cretefloor_tile.jpg } } //example
-
+		
 
 	
 
@@ -33,8 +32,7 @@ int main()
 	newmap.open(outputname);
 	for (auto & p : fs::recursive_directory_iterator(path))
 	{
-	//	if (p->path().is_directory())
-	//	if (fs::is_directory(path))
+
 		if (is_regular_file(p))
 		{
 		
