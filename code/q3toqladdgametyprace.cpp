@@ -73,23 +73,6 @@ int main(int argc, char* argv[])
 	
 
 
-	/*while (getline(infile, starttimerline))
-	{
-		istringstream iss(starttimerline);
-		if (starttimerline.find(starttimerstring) != string::npos)
-		{
-			break;
-		}
-	}*/
-
-
-
-	//infile.seekg(0, ios::beg);
-
-
-	//print out to console
-
-
 	//write to the file
 	string inbuf;
 	ofstream output_file(outputname); //output file i fix that later
