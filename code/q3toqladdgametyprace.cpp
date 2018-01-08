@@ -34,10 +34,10 @@ std::string GetFileExtension(const std::string& FileName)
 //main program
 int main(int argc, char* argv[])
 {
-	string starttimerstring = "\"classname\" \"item"; //dannach wird gesucht
-	string starttimerstring2 = "\"classname\" \"weapon"; //dannach wird gesucht
-	string starttimerstring3 = "\"classname\" \"ammo"; //dannach wird gesucht
-	string starttimerstring4 = "\"classname\" \"holdable"; //dannach wird gesucht
+	string starttimerstring = "\"classname\" \"item"; //danach wird gesucht
+	string starttimerstring2 = "\"classname\" \"weapon"; //danach wird gesucht
+	string starttimerstring3 = "\"classname\" \"ammo"; //danach wird gesucht
+	string starttimerstring4 = "\"classname\" \"holdable"; //danach wird gesucht
 
 	string starttimerline; //hiermit wird gesucht
 	string starttimerline2; //hiermit wird gesucht
